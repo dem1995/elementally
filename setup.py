@@ -4,11 +4,12 @@ with open("README.md", 'r') as readme:
 	long_description = readme.read()
 
 setup(
-	name = 'elementally-DEMcKnight',
+	name = 'elementally',
 	version = '0.2',
 	author = 'David "Dawn" Estes McKnight',
 	author_email = 'demcknig@ualberta.ca',
-	description = 'Utility class for elementwise operations on built-in types',
+	description = 'Utility module for elementwise operations on basic Python'
+	              ' sequence types',
 	long_description=long_description,
 	long_description_content_type="text/markdown",
 	url = 'https://github.com/dem1995/elementally',
@@ -16,7 +17,7 @@ setup(
 	packages = find_packages(),
 	classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT/X11 License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 	python_requires='>=3.8'
