@@ -5,7 +5,7 @@ with open("README.md", 'r') as readme:
 
 setup(
 	name = 'elementally',
-	version = '0.2',
+	version = '0.4',
 	author = 'David "Dawn" Estes McKnight',
 	author_email = 'demcknig@ualberta.ca',
 	description = 'Utility module for elementwise operations on basic Python'
